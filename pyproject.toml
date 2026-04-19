@@ -1,0 +1,16 @@
+[project]
+name = "petitions"
+version = "0.1.0"
+description = "Un serveur de pétitions en Flask"
+authors = [
+    {name = "Dimitri Merejkowsky",email = "dimitri@dmerej.info"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "flask (>=3.1.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
