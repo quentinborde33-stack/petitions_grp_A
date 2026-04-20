@@ -5,7 +5,7 @@ app = Flask("petitions")
 
 @app.get("/")
 def index():
-    return render_template("index.html", nombre_signatures=10)
+    return render_template("index.html", nombre_signatures=1)
 
 
 @app.get("/style.css")
