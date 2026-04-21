@@ -15,6 +15,8 @@ def sign():
     global NOMBRE_DE_SIGNATURES
     NOMBRE_DE_SIGNATURES += 1
     print(request.form)
+    return render_template("merci.html", nombre_signatures=NOMBRE_DE_SIGNATURES, name=request.form['name'])
+
 
 
 @app.get("/style.css")
